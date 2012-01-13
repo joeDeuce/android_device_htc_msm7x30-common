@@ -73,13 +73,24 @@ PRODUCT_PACKAGES += \
 
 # Misc
 PRODUCT_PACKAGES += \
-    com.android.future.usb.accessory
+    com.android.future.usb.accessory \
+    CMSettings \
+    FileManager \
+    DSPManager \
+    libcyanogen-dsp \
+    Torch
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
+    Basic \
     LiveWallpapers \
     LiveWallpapersPicker \
     VisualizationWallpapers \
+    NoiseField \
+    PhaseBeam \
+    LivePicker \
+    HoloSpiral \
+    Galaxy4 \
     librs_jni
 
 # Filesystem management tools

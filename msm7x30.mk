@@ -77,8 +77,6 @@ PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
     CMSettings \
     FileManager \
-    DSPManager \
-    libcyanogen-dsp \
     Torch \
     Trebuchet
 

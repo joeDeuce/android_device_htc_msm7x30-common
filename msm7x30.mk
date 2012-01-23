@@ -76,7 +76,7 @@ PRODUCT_PACKAGES += \
 # Misc
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
-    CMSettings \
+    LibertySettings \
     DSPmanager \
     libcyanogen-dsp \
     Torch \

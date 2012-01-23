@@ -80,7 +80,8 @@ PRODUCT_PACKAGES += \
     DSPmanager \
     libcyanogen-dsp \
     Torch \
-    Trebuchet
+    Trebuchet \
+    EVToolbox
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \

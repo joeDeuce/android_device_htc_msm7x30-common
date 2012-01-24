@@ -81,7 +81,8 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     Torch \
     Trebuchet \
-    EVToolbox
+    EVToolbox \
+    FileExplorer
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \

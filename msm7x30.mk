@@ -80,13 +80,11 @@ PRODUCT_PACKAGES += \
 # Misc
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
-    LibertySettings \
     DSPManager \
     libcyanogen-dsp \
     Torch \
     Trebuchet \
-    EVToolbox \
-    FileExplorer
+    FileManager
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \

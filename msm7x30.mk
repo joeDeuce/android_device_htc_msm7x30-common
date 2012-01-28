@@ -98,7 +98,9 @@ PRODUCT_PACKAGES += \
     HoloSpiral \
     Galaxy4 \
     librs_jni \
-    LatinIME
+    LatinIME \
+    Superuser \
+    su
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \

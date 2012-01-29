@@ -560,3 +560,32 @@ service dumpstate /system/bin/dumpstate -s
     disabled
     oneshot
 
+# adb over network
+on property:service.adb.tcp.port=5555
+    stop adbd
+    start adbd
+
+on property:service.adb.tcp.port=-1
+    stop adbd
+    start adbd
+
+on property:dev.bootcomplete=1
+    start bootcomplete
+
+service bootcomplete /system/bin/bootcomplete
+    user root
+    group root
+    disabled
+    oneshot
+
+service shutdown /system/bin/shutdown
+    user root
+    group root
+    disabled
+    oneshot
+
+service charging /system/bin/charging
+    user root
+    group root
+    disabled
+    oneshot

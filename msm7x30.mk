@@ -80,8 +80,6 @@ PRODUCT_PACKAGES += \
 # Misc
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
-    DSPManager \
-    libcyanogen-dsp \
     Torch \
     Trebuchet \
     FileManager

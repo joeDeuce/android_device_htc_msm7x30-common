@@ -107,8 +107,7 @@ PRODUCT_PACKAGES += \
 
 #Camera packages
 PRODUCT_PACKAGES += \
-    camera.msm7x30 \
-    Camera
+    camera.msm7x30
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise

@@ -105,6 +105,11 @@ PRODUCT_PACKAGES += \
     make_ext4fs \
     setup_fs
 
+#Camera packages
+PRODUCT_PACKAGES += \
+    camera.msm7x30 \
+    Camera
+
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
 

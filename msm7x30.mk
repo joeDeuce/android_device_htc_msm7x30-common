@@ -84,7 +84,6 @@ PRODUCT_PACKAGES += \
 # Misc
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
-    Torch \
     Trebuchet \
     FileManager
 
@@ -102,7 +101,8 @@ PRODUCT_PACKAGES += \
     librs_jni \
     LatinIME \
     Superuser \
-    su
+    su \
+    ROMControl
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \

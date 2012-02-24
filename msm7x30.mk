@@ -76,10 +76,12 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    libstagefrighthw \
     libOmxCore \
+    libmm-omxcore \
+    libdivxdrmdecrypt \
     libOmxVenc \
-    libOmxVdec \
-    libstagefrighthw
+    libOmxVdec
 
 # Misc
 PRODUCT_PACKAGES += \

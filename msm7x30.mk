@@ -100,7 +100,8 @@ PRODUCT_PACKAGES += \
     LatinIME \
     Superuser \
     su \
-    ROMControl
+    ROMControl \
+    Torch
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \

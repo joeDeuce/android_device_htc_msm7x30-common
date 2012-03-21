@@ -96,8 +96,7 @@ PRODUCT_PACKAGES += \
     Superuser \
     su \
     ROMControl \
-    Torch \
-    AppWidgetPicker
+    Torch
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \

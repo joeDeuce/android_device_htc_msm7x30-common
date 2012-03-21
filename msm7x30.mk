@@ -90,7 +90,14 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     Trebuchet \
-    FileManager
+    FileManager \
+    librs_jni \
+    LatinIME \
+    Superuser \
+    su \
+    ROMControl \
+    Torch \
+    AppWidgetPicker
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
@@ -102,13 +109,7 @@ PRODUCT_PACKAGES += \
     PhaseBeam \
     LivePicker \
     HoloSpiral \
-    Galaxy4 \
-    librs_jni \
-    LatinIME \
-    Superuser \
-    su \
-    ROMControl \
-    Torch
+    Galaxy4
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \

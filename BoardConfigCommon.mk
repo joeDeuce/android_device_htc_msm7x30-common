@@ -36,8 +36,10 @@ TARGET_SCORPION_BIONIC_PLDSIZE := 128
 
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
+TARGET_EXTRA_CFLAGS += $(call cc-option,-march=armv7-a -mtune=cortex-a8)
 
 ARCH_ARM_HAVE_VFP := true
+
 
 TARGET_SPECIFIC_HEADER_PATH := device/htc/msm7x30-common/include
 
@@ -94,7 +96,7 @@ BOARD_USES_QCOM_LIBS := true
 BOARD_USES_QCOM_LIBRPC := true
 BOARD_USES_QCOM_GPS := true
 BOARD_USE_QCOM_PMEM := true
-USE_MALLOC_ALIGNMENT := 16
+BOARD_MALLOC_ALIGNMENT := 16
 
 BOARD_USE_LEGACY_TOUCHSCREEN := true
 

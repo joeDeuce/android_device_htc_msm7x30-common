@@ -95,7 +95,8 @@ PRODUCT_PACKAGES += \
     ROMControl \
     Torch \
     AppWidgetPicker \
-    GooManager
+    GooManager \
+    Achromatic
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \

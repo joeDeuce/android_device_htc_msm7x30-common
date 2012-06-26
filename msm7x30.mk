@@ -95,8 +95,7 @@ PRODUCT_PACKAGES += \
     ROMControl \
     Torch \
     AppWidgetPicker \
-    GooManager \
-    Achromatic
+    GooManager
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
@@ -124,7 +123,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 # use high-density artwork where available
-PRODUCT_LOCALES += hdpi
+PRODUCT_LOCALES += zhdpi
 
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi

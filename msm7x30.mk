@@ -123,7 +123,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 # use high-density artwork where available
-PRODUCT_LOCALES += zhdpi
+PRODUCT_LOCALES += hdpi
 
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi

@@ -86,7 +86,6 @@ PRODUCT_PACKAGES += \
     com.android.future.usb.accessory \
     DSPManager \
     libcyanogen-dsp \
-    Trebuchet \
     FileManager \
     librs_jni \
     LatinIME \
